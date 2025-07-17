@@ -381,6 +381,18 @@
                 font-size: 1.4rem;
             }
         }
+        
+        @media (max-width: 768px) {
+            /* ... your existing mobile styles ... */
+            /* Add this new rule */
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+            }
+            /* Optional: if you also want to change the border color */
+            .navbar-toggler {
+                border-color: rgba(255, 255, 255, 0.5);
+            }
+        }
     </style>
 </head>
 
@@ -484,9 +496,10 @@
                                 </div>
                                 <h5 class="mb-3 card-title">Video Lessons</h5>
                                 <p class="mb-4">High-quality video tutorials covering all major topics with <span class="highlight">detailed explanations</span>.</p>
-                                <a href="#" class="btn btn-accent">
+                                <a href="https://wa.me/254759592457" class="btn btn-accent" target="_blank">
                                     <i class="fas fa-play-circle me-2"></i>Learn More
                                 </a>
+
                             </div>
                         </div>
                     </div>
@@ -498,9 +511,10 @@
                                 </div>
                                 <h5 class="mb-3 card-title">Live Sessions</h5>
                                 <p class="mb-4">Interactive live classes with <span class="highlight">expert tutor</span> and real-time Q&A for immediate feedback.</p>
-                                <a href="#" class="btn btn-accent">
+                                <a href="https://wa.me/254759592457?text=Hi%20Rein,%20I%20would%20like%20to%20join%20a%20session." class="btn btn-accent" target="_blank">
                                     <i class="fas fa-users me-2"></i>Join Session
                                 </a>
+
                             </div>
                         </div>
                     </div>
@@ -512,8 +526,8 @@
                                 </div>
                                 <h5 class="mb-3 card-title">Practice Materials</h5>
                                 <p class="mb-4">Curated materials and exercises with <span class="highlight">detailed solutions</span> for self-paced learning.</p>
-                                <a href="#" class="btn btn-accent">
-                                    <i class="fas fa-download me-2"></i>Download Now
+                                <a href="https://wa.me/254759592457?text=Hi%20Rein,%20I%20would%20like%20a%20copy%20please." class="btn btn-accent" target="_blank">
+                                    <i class="fas fa-download me-2"></i>Want a Copy?
                                 </a>
                             </div>
                         </div>
